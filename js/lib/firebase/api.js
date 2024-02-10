@@ -4,7 +4,6 @@
 
 */
 import firebase from 'firebase/app';
-import 'firebase/database';
 import { ref, get } from 'firebase/database';
 import { db } from './config/firebase/firebaseInit';
 
