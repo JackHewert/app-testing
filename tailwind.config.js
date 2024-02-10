@@ -18,5 +18,11 @@ export default {
 module.exports = {
 	plugins: [
 		require('@tailwindcss/forms')
+	],
+	content: [
+		'./src/**/*.html',
+		'./src/**/*.vue',
+		'./src/**/*.jsx',
+		// Add more file paths or glob patterns as needed
 	]
 };
