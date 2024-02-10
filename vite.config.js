@@ -11,19 +11,19 @@ export default defineConfig({
 			'@': './src',
 		},
 	},
+
 	build: {
-		build: {
-			rollupOptions: {
-				external: ['firebase/database'],
-				input: {
-					index: resolve(__dirname, './index.html'),
-					demo: resolve(__dirname, './live-demo.html'),
-					login: resolve(__dirname, './login.html'),
-				},
+		rollupOptions: {
+			external: ['firebase/database'],
+			input: {
+				index: resolve(__dirname, './index.html'),
+				demo: resolve(__dirname, './live-demo.html'),
+				login: resolve(__dirname, './login.html'),
 			},
 		},
-	}
-});
+	},
+}
+);
 
 /* 
 
