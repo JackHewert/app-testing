@@ -1,6 +1,7 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
-
+import { firebaseExternals } from './js/lib/firebase/config/firebase/firebase-externals-file';
+//Import this from a separate file
 // https://vitejs.dev/config/
 export default defineConfig({
 	server: {
