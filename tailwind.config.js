@@ -9,7 +9,7 @@ const firebaseConfig = {
 	measurementId: "G-3KMNE3T5TP"
 };
 export default {
-	content: ["./*.html", "./js/**/*.js", "node_modules/preline/dist/*.js"],
+	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
 		extend: {},
 	},
