@@ -10,10 +10,5 @@ const app = initializeApp(firebaseConfig);
 // Initialize Realtime Database and get a reference to the service
 // connecting  to the RTDB   ---> ref
 const db = getDatabase(app);
-export const firebaseExternals = [
-    'firebase/app',
-    'firebase/auth',
-    'firebase/firestore',
-    // Add more Firebase packages if needed
-];
+
 export { db };
