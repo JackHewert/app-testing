@@ -14,7 +14,7 @@ export default defineConfig({
 	build: {
 		build: {
 			rollupOptions: {
-				external: ['js/tag.js'],
+				external: ['firebase/database', 'js/tag.js'],
 				input: {
 					index: resolve(__dirname, './index.html'),
 					demo: resolve(__dirname, './live-demo.html'),
