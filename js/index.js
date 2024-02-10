@@ -1,13 +1,13 @@
 import { getToDoData } from './lib/firebase/api';
 import { toDoItemTemplate } from './templates/toDoItem';
 /* 
-		   1. Import Data 
+           1. Import Data 
 		   2. Working with Object of Objects 
-			  Object.values()
+		      Object.values()
 			  Object.keys()
 			  Object.entries()
 
-			3. Creating A Template Preline... Tailwind UI Libraries 
+		    3. Creating A Template Preline... Tailwind UI Libraries 
 
 			4. Creating A Render Function 
 
@@ -15,8 +15,8 @@ import { toDoItemTemplate } from './templates/toDoItem';
 
 			Display Templating 
 			toDoItems.forEach((todo) => {
-			  document.querySelector('#root').insertAdjacentHTML('afterbegin', todo);
-			 });
+		      document.querySelector('#root').insertAdjacentHTML('afterbegin', todo);
+	         });
 
 			  
 */
